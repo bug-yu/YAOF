@@ -7,7 +7,7 @@ external-controller: :9090
 proxies:
   - {name: 🇸🇬 新加坡01_oracle_解锁, server: oracle1.bigyu.tk, port: 443, type: vmess, uuid: 2be03946-c1a5-47ce-9c76-26600e3c6db0, alterId: 0, cipher: auto, tls: true}
   - {name: 🇸🇬 新加坡02_oracle_解锁, server: oracle2.bigyu.tk, port: 443, type: vmess, uuid: 7612c087-cf61-4b93-b8d5-9221c2e8718f, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇸🇬 新加坡03_oracle_解锁, server: oracle3.bigyu.tk, port: 443, type: vmess, uuid: e1a74693-a2ed-4c3d-9b8c-0beab1d0dc93, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇸🇬 新加坡03_oracle_解锁, server: oracle3.bigyu.tk, port: 443, type: vmess, uuid: 4b4dcdf4-0a59-4c96-f9ff-30a4e6eb2783, alterId: 0, cipher: auto, tls: true}
   - {name: 🇸🇬 新加坡04_oracle_解锁, server: oracle4.bigyu.tk, port: 443, type: vmess, uuid: 3ec453dd-61f4-4160-8f5d-390a2fb78e97, alterId: 0, cipher: auto, tls: true}
   - {name: 🇸🇬 新加坡05_oracle_解锁, server: oracleamd.bigyu.tk, port: 443, type: vmess, uuid: 63d7df05-e4be-4529-8e6b-5bbc6d0dcdcc, alterId: 0, cipher: auto, tls: true}
   - {name: 🇸🇬 新加坡06_aws_100G_每月22号重置, server: aws.bigyu.tk, port: 443, type: vmess, uuid: e0937600-d345-44e9-dd39-bc45516b3943, alterId: 0, cipher: auto, tls: true}
