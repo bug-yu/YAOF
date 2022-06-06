@@ -21,6 +21,8 @@ proxies:
   - {name: 🇰🇷 韩国02_oracle_解锁, server: oracle6.bigyu.tk, port: 443, type: vmess, uuid: ad4aa98b-6b03-4d45-cb59-1b49711eb3df, alterId: 0, cipher: auto, tls: true}
   - {name: 🇰🇷 韩国03_oracle_解锁, server: oracle7.bigyu.tk, port: 443, type: vmess, uuid: abf6f8a3-f045-4d5f-a510-ad0a4531f0ac, alterId: 0, cipher: auto, tls: true}
   - {name: 🇰🇷 韩国04_oracle_解锁, server: oracle8.bigyu.tk, port: 443, type: vmess, uuid: 103e1784-5a70-41c1-b4e2-824650ab0805, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 日本01_oracle_解锁, server: oracle9.bigyu.tk, port: 443, type: vmess, uuid: a206ca99-de8e-4a3b-d90c-a1e8ee342896, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 日本02_oracle_解锁, server: oracle10.bigyu.tk, port: 443, type: vmess, uuid: 1dfdd0cf-9172-4832-d16e-578d07e291ae, alterId: 0, cipher: auto, tls: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -43,6 +45,8 @@ proxy-groups:
       - 🇰🇷 韩国02_oracle_解锁
       - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
+      - 🇯🇵 日本01_oracle_解锁
+      - 🇯🇵 日本02_oracle_解锁
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -65,6 +69,8 @@ proxy-groups:
       - 🇰🇷 韩国02_oracle_解锁
       - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
+      - 🇯🇵 日本01_oracle_解锁
+      - 🇯🇵 日本02_oracle_解锁
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -87,6 +93,8 @@ proxy-groups:
       - 🇰🇷 韩国02_oracle_解锁
       - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
+      - 🇯🇵 日本01_oracle_解锁
+      - 🇯🇵 日本02_oracle_解锁
   - name: 📲 电报信息
     type: select
     proxies:
@@ -108,6 +116,8 @@ proxy-groups:
       - 🇰🇷 韩国02_oracle_解锁
       - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
+      - 🇯🇵 日本01_oracle_解锁
+      - 🇯🇵 日本02_oracle_解锁
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -129,6 +139,8 @@ proxy-groups:
       - 🇰🇷 韩国02_oracle_解锁
       - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
+      - 🇯🇵 日本01_oracle_解锁
+      - 🇯🇵 日本02_oracle_解锁
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -150,6 +162,8 @@ proxy-groups:
       - 🇰🇷 韩国02_oracle_解锁
       - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
+      - 🇯🇵 日本01_oracle_解锁
+      - 🇯🇵 日本02_oracle_解锁
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -172,6 +186,8 @@ proxy-groups:
       - 🇰🇷 韩国02_oracle_解锁
       - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
+      - 🇯🇵 日本01_oracle_解锁
+      - 🇯🇵 日本02_oracle_解锁
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -210,6 +226,8 @@ proxy-groups:
       - 🇰🇷 韩国02_oracle_解锁
       - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
+      - 🇯🇵 日本01_oracle_解锁
+      - 🇯🇵 日本02_oracle_解锁
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
