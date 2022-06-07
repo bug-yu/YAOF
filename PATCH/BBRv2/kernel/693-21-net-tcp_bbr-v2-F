@@ -25,6 +25,7 @@ proxies:
   - {name: 🇯🇵 日本02_oracle_解锁, server: oracle10.bigyu.tk, port: 443, type: vmess, uuid: 1dfdd0cf-9172-4832-d16e-578d07e291ae, alterId: 0, cipher: auto, tls: true}
   - {name: 🇯🇵 日本03_oracle_解锁, server: oracle11.bigyu.tk, port: 443, type: vmess, uuid: af90028c-a704-4628-cfbc-1e7e80e6e15f, alterId: 0, cipher: auto, tls: true}
   - {name: 🇯🇵 日本04_oracle_解锁, server: oracle12.bigyu.tk, port: 443, type: vmess, uuid: e58bd195-e540-41d3-b5ef-74d0dc8db5c9, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 日本05_az_20220630到期, server: azjp.bigyu.tk, port: 443, type: vmess, uuid: e5653e4e-bd1a-4dbb-b2d0-b2972b67dae4, alterId: 0, cipher: auto, tls: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -51,6 +52,7 @@ proxy-groups:
       - 🇯🇵 日本02_oracle_解锁
       - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本05_az_20220630到期
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -77,6 +79,7 @@ proxy-groups:
       - 🇯🇵 日本02_oracle_解锁
       - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本05_az_20220630到期
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -103,6 +106,7 @@ proxy-groups:
       - 🇯🇵 日本02_oracle_解锁
       - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本05_az_20220630到期
   - name: 📲 电报信息
     type: select
     proxies:
@@ -128,6 +132,7 @@ proxy-groups:
       - 🇯🇵 日本02_oracle_解锁
       - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本05_az_20220630到期
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -153,6 +158,7 @@ proxy-groups:
       - 🇯🇵 日本02_oracle_解锁
       - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本05_az_20220630到期
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -178,6 +184,7 @@ proxy-groups:
       - 🇯🇵 日本02_oracle_解锁
       - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本05_az_20220630到期
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -204,6 +211,7 @@ proxy-groups:
       - 🇯🇵 日本02_oracle_解锁
       - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本05_az_20220630到期
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -246,6 +254,7 @@ proxy-groups:
       - 🇯🇵 日本02_oracle_解锁
       - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本05_az_20220630到期
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
