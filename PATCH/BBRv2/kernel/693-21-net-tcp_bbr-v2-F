@@ -20,7 +20,7 @@ proxies:
   - {name: 🇰🇷 韩国04_oracle_解锁, server: oracle8.bigyu.tk, port: 443, type: vmess, uuid: 103e1784-5a70-41c1-b4e2-824650ab0805, alterId: 0, cipher: auto, tls: true}
   - {name: 🇯🇵 日本01_oracle_解锁, server: oracle9.bigyu.tk, port: 443, type: vmess, uuid: a206ca99-de8e-4a3b-d90c-a1e8ee342896, alterId: 0, cipher: auto, tls: true}
   - {name: 🇯🇵 日本02_oracle_解锁, server: oracle10.bigyu.tk, port: 443, type: vmess, uuid: 1dfdd0cf-9172-4832-d16e-578d07e291ae, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇯🇵 日本03_oracle_解锁, server: oracle11.bigyu.tk, port: 443, type: vmess, uuid: af90028c-a704-4628-cfbc-1e7e80e6e15f, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 日本03_oracle_解锁, server: oracle11.bigyu.tk, port: 52879, type: vmess, uuid: af90028c-a704-4628-cfbc-1e7e80e6e15f, alterId: 0, cipher: auto, tls: true}
   - {name: 🇯🇵 日本04_oracle_解锁, server: oracle12.bigyu.tk, port: 443, type: vmess, uuid: e58bd195-e540-41d3-b5ef-74d0dc8db5c9, alterId: 0, cipher: auto, tls: true}
 proxy-groups:
   - name: 🚀 节点选择
