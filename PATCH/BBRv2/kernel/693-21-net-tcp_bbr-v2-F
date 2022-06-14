@@ -6,8 +6,6 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇸🇬 新加坡01_oracle_解锁, server: oracle1.bigyu.tk, port: 443, type: vmess, uuid: 2be03946-c1a5-47ce-9c76-26600e3c6db0, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇸🇬 新加坡02_oracle_解锁, server: oracle2.bigyu.tk, port: 443, type: vmess, uuid: 7612c087-cf61-4b93-b8d5-9221c2e8718f, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇸🇬 新加坡03_oracle_解锁, server: oracle3.bigyu.tk, port: 443, type: vmess, uuid: 4b4dcdf4-0a59-4c96-f9ff-30a4e6eb2783, alterId: 0, cipher: auto, tls: true}
   - {name: 🇸🇬 新加坡04_oracle_解锁, server: oracle4.bigyu.tk, port: 443, type: vmess, uuid: bf4a6069-4bd4-4a0e-c88d-6d047a21de52, alterId: 0, cipher: auto, tls: true}
   - {name: 🇸🇬 新加坡06_aws_100G_每月22号重置, server: aws.bigyu.tk, port: 443, type: vmess, uuid: e0937600-d345-44e9-dd39-bc45516b3943, alterId: 0, cipher: auto, tls: true}
   - {name: 🇺🇸 美国01_atl_共3T_20230525到期, server: atl.bigyu.tk, port: 443, type: vmess, uuid: bd746090-7e63-4140-f2fc-da0ec662af82, alterId: 0, cipher: auto, tls: true}
@@ -15,12 +13,8 @@ proxies:
   - {name: 🇭🇰 香港02_gcp_解锁_20220831到期, server: gcp2.bigyu.tk, port: 443, type: vmess, uuid: f2379bff-6df5-43da-ce1e-2529bdabc56b, alterId: 0, cipher: auto, tls: true}
   - {name: 🇺🇸 美国02_az_15G_每月30号重置, server: azus.bigyu.tk, port: 443, type: vmess, uuid: 44e7e464-cb8c-49e6-84fb-a47ebdca74cd, alterId: 0, cipher: auto, tls: true}
   - {name: 🇰🇷 韩国01_oracle_解锁, server: oracle5.bigyu.tk, port: 443, type: vmess, uuid: ad1dfeb5-623b-4a7e-86e0-443c1bc3fdda, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇰🇷 韩国02_oracle_解锁, server: oracle6.bigyu.tk, port: 443, type: vmess, uuid: ad4aa98b-6b03-4d45-cb59-1b49711eb3df, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇰🇷 韩国03_oracle_解锁, server: oracle7.bigyu.tk, port: 443, type: vmess, uuid: abf6f8a3-f045-4d5f-a510-ad0a4531f0ac, alterId: 0, cipher: auto, tls: true}
   - {name: 🇰🇷 韩国04_oracle_解锁, server: oracle8.bigyu.tk, port: 443, type: vmess, uuid: 103e1784-5a70-41c1-b4e2-824650ab0805, alterId: 0, cipher: auto, tls: true}
   - {name: 🇯🇵 日本01_oracle_解锁, server: oracle9.bigyu.tk, port: 443, type: vmess, uuid: a206ca99-de8e-4a3b-d90c-a1e8ee342896, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇯🇵 日本02_oracle_解锁, server: oracle10.bigyu.tk, port: 443, type: vmess, uuid: 1dfdd0cf-9172-4832-d16e-578d07e291ae, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇯🇵 日本03_oracle_解锁, server: oracle11.bigyu.tk, port: 52879, type: vmess, uuid: af90028c-a704-4628-cfbc-1e7e80e6e15f, alterId: 0, cipher: auto, tls: true}
   - {name: 🇯🇵 日本04_oracle_解锁, server: oracle12.bigyu.tk, port: 443, type: vmess, uuid: e58bd195-e540-41d3-b5ef-74d0dc8db5c9, alterId: 0, cipher: auto, tls: true}
 proxy-groups:
   - name: 🚀 节点选择
@@ -29,8 +23,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇸🇬 新加坡01_oracle_解锁
-      - 🇸🇬 新加坡02_oracle_解锁
-      - 🇸🇬 新加坡03_oracle_解锁
       - 🇸🇬 新加坡04_oracle_解锁
       - 🇸🇬 新加坡06_aws_100G_每月22号重置
       - 🇺🇸 美国01_atl_共3T_20230525到期
@@ -38,12 +30,8 @@ proxy-groups:
       - 🇭🇰 香港02_gcp_解锁_20220831到期
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
-      - 🇰🇷 韩国02_oracle_解锁
-      - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
       - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本02_oracle_解锁
-      - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
   - name: ♻️ 自动选择
     type: url-test
@@ -52,8 +40,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇸🇬 新加坡01_oracle_解锁
-      - 🇸🇬 新加坡02_oracle_解锁
-      - 🇸🇬 新加坡03_oracle_解锁
       - 🇸🇬 新加坡04_oracle_解锁
       - 🇸🇬 新加坡06_aws_100G_每月22号重置
       - 🇺🇸 美国01_atl_共3T_20230525到期
@@ -61,12 +47,8 @@ proxy-groups:
       - 🇭🇰 香港02_gcp_解锁_20220831到期
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
-      - 🇰🇷 韩国02_oracle_解锁
-      - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
       - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本02_oracle_解锁
-      - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
   - name: 🌍 国外媒体
     type: select
@@ -75,8 +57,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇸🇬 新加坡01_oracle_解锁
-      - 🇸🇬 新加坡02_oracle_解锁
-      - 🇸🇬 新加坡03_oracle_解锁
       - 🇸🇬 新加坡04_oracle_解锁
       - 🇸🇬 新加坡06_aws_100G_每月22号重置
       - 🇺🇸 美国01_atl_共3T_20230525到期
@@ -84,12 +64,8 @@ proxy-groups:
       - 🇭🇰 香港02_gcp_解锁_20220831到期
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
-      - 🇰🇷 韩国02_oracle_解锁
-      - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
       - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本02_oracle_解锁
-      - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
   - name: 📲 电报信息
     type: select
@@ -97,8 +73,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇸🇬 新加坡01_oracle_解锁
-      - 🇸🇬 新加坡02_oracle_解锁
-      - 🇸🇬 新加坡03_oracle_解锁
       - 🇸🇬 新加坡04_oracle_解锁
       - 🇸🇬 新加坡06_aws_100G_每月22号重置
       - 🇺🇸 美国01_atl_共3T_20230525到期
@@ -106,12 +80,8 @@ proxy-groups:
       - 🇭🇰 香港02_gcp_解锁_20220831到期
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
-      - 🇰🇷 韩国02_oracle_解锁
-      - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
       - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本02_oracle_解锁
-      - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
   - name: Ⓜ️ 微软服务
     type: select
@@ -119,8 +89,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇸🇬 新加坡01_oracle_解锁
-      - 🇸🇬 新加坡02_oracle_解锁
-      - 🇸🇬 新加坡03_oracle_解锁
       - 🇸🇬 新加坡04_oracle_解锁
       - 🇸🇬 新加坡06_aws_100G_每月22号重置
       - 🇺🇸 美国01_atl_共3T_20230525到期
@@ -128,12 +96,8 @@ proxy-groups:
       - 🇭🇰 香港02_gcp_解锁_20220831到期
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
-      - 🇰🇷 韩国02_oracle_解锁
-      - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
       - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本02_oracle_解锁
-      - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
   - name: 🍎 苹果服务
     type: select
@@ -141,8 +105,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇸🇬 新加坡01_oracle_解锁
-      - 🇸🇬 新加坡02_oracle_解锁
-      - 🇸🇬 新加坡03_oracle_解锁
       - 🇸🇬 新加坡04_oracle_解锁
       - 🇸🇬 新加坡06_aws_100G_每月22号重置
       - 🇺🇸 美国01_atl_共3T_20230525到期
@@ -150,12 +112,8 @@ proxy-groups:
       - 🇭🇰 香港02_gcp_解锁_20220831到期
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
-      - 🇰🇷 韩国02_oracle_解锁
-      - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
       - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本02_oracle_解锁
-      - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
   - name: 📢 谷歌FCM
     type: select
@@ -164,8 +122,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇸🇬 新加坡01_oracle_解锁
-      - 🇸🇬 新加坡02_oracle_解锁
-      - 🇸🇬 新加坡03_oracle_解锁
       - 🇸🇬 新加坡04_oracle_解锁
       - 🇸🇬 新加坡06_aws_100G_每月22号重置
       - 🇺🇸 美国01_atl_共3T_20230525到期
@@ -173,12 +129,8 @@ proxy-groups:
       - 🇭🇰 香港02_gcp_解锁_20220831到期
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
-      - 🇰🇷 韩国02_oracle_解锁
-      - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
       - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本02_oracle_解锁
-      - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
   - name: 🎯 全球直连
     type: select
@@ -203,8 +155,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇸🇬 新加坡01_oracle_解锁
-      - 🇸🇬 新加坡02_oracle_解锁
-      - 🇸🇬 新加坡03_oracle_解锁
       - 🇸🇬 新加坡04_oracle_解锁
       - 🇸🇬 新加坡06_aws_100G_每月22号重置
       - 🇺🇸 美国01_atl_共3T_20230525到期
@@ -212,12 +162,8 @@ proxy-groups:
       - 🇭🇰 香港02_gcp_解锁_20220831到期
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
-      - 🇰🇷 韩国02_oracle_解锁
-      - 🇰🇷 韩国03_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
       - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本02_oracle_解锁
-      - 🇯🇵 日本03_oracle_解锁
       - 🇯🇵 日本04_oracle_解锁
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
