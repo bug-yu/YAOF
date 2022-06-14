@@ -1,4 +1,4 @@
-port: 7890
+ort: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
@@ -14,8 +14,9 @@ proxies:
   - {name: 🇺🇸 美国02_az_15G_每月30号重置, server: azus.bigyu.tk, port: 443, type: vmess, uuid: 44e7e464-cb8c-49e6-84fb-a47ebdca74cd, alterId: 0, cipher: auto, tls: true}
   - {name: 🇰🇷 韩国01_oracle_解锁, server: oracle5.bigyu.tk, port: 443, type: vmess, uuid: ad1dfeb5-623b-4a7e-86e0-443c1bc3fdda, alterId: 0, cipher: auto, tls: true}
   - {name: 🇰🇷 韩国04_oracle_解锁, server: oracle8.bigyu.tk, port: 443, type: vmess, uuid: 103e1784-5a70-41c1-b4e2-824650ab0805, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇯🇵 日本01_oracle_解锁, server: oracle9.bigyu.tk, port: 443, type: vmess, uuid: a206ca99-de8e-4a3b-d90c-a1e8ee342896, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇯🇵 日本04_oracle_解锁, server: oracle12.bigyu.tk, port: 443, type: vmess, uuid: e58bd195-e540-41d3-b5ef-74d0dc8db5c9, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 日本01_oracle_AMD_解锁, server: oracle9.bigyu.tk, port: 6443, type: vmess, uuid: a206ca99-de8e-4a3b-d90c-a1e8ee342896, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 日本02_oracle_AMD_解锁, server: oracle10.bigyu.tk, port: 6443, type: vmess, uuid: 1dfdd0cf-9172-4832-d16e-578d07e291ae, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 日本03_oracle_ARM_解锁, server: oracle12.bigyu.tk, port: 6443, type: vmess, uuid: e58bd195-e540-41d3-b5ef-74d0dc8db5c9, alterId: 0, cipher: auto, tls: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,8 +32,9 @@ proxy-groups:
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
-      - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本01_oracle_AMD_解锁
+      - 🇯🇵 日本02_oracle_AMD_解锁
+      - 🇯🇵 日本03_oracle_ARM_解锁
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -48,8 +50,9 @@ proxy-groups:
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
-      - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本01_oracle_AMD_解锁
+      - 🇯🇵 日本02_oracle_AMD_解锁
+      - 🇯🇵 日本03_oracle_ARM_解锁
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -65,8 +68,9 @@ proxy-groups:
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
-      - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本01_oracle_AMD_解锁
+      - 🇯🇵 日本02_oracle_AMD_解锁
+      - 🇯🇵 日本03_oracle_ARM_解锁
   - name: 📲 电报信息
     type: select
     proxies:
@@ -81,8 +85,9 @@ proxy-groups:
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
-      - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本01_oracle_AMD_解锁
+      - 🇯🇵 日本02_oracle_AMD_解锁
+      - 🇯🇵 日本03_oracle_ARM_解锁
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -97,8 +102,9 @@ proxy-groups:
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
-      - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本01_oracle_AMD_解锁
+      - 🇯🇵 日本02_oracle_AMD_解锁
+      - 🇯🇵 日本03_oracle_ARM_解锁
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -113,8 +119,9 @@ proxy-groups:
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
-      - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本01_oracle_AMD_解锁
+      - 🇯🇵 日本02_oracle_AMD_解锁
+      - 🇯🇵 日本03_oracle_ARM_解锁
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -130,8 +137,9 @@ proxy-groups:
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
-      - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本01_oracle_AMD_解锁
+      - 🇯🇵 日本02_oracle_AMD_解锁
+      - 🇯🇵 日本03_oracle_ARM_解锁
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -163,8 +171,9 @@ proxy-groups:
       - 🇺🇸 美国02_az_15G_每月30号重置
       - 🇰🇷 韩国01_oracle_解锁
       - 🇰🇷 韩国04_oracle_解锁
-      - 🇯🇵 日本01_oracle_解锁
-      - 🇯🇵 日本04_oracle_解锁
+      - 🇯🇵 日本01_oracle_AMD_解锁
+      - 🇯🇵 日本02_oracle_AMD_解锁
+      - 🇯🇵 日本03_oracle_ARM_解锁
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
